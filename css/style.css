@@ -1,0 +1,46 @@
+body{
+    font: 20px;
+    /* fonte geral do corpo/Body*/
+    
+}
+.navbar {
+    background-color: rgb(97, 93, 93);
+}
+
+.collapse {
+    font-family: 'Courier New', Courier, monospace;  
+    font-size: 20px;
+    text-emphasis-color: 10px;
+    color: aliceblue
+
+   
+}
+.quem-somos{
+    background-color:white;
+    color: black;
+}
+.margin{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.parceiros{
+    background-color: aliceblue;
+}
+.servicos{
+    background-color: aliceblue;
+}
+.bg-footer{
+   background-color: black;
+   color: aliceblue;
+}
+
+/* Linhas abaixo responsavel pelo efeito da galeria de imagens */
+
+.imagemlogo01{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.imagemlogo01:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
